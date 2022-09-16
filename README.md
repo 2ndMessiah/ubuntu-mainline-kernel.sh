@@ -1,3 +1,5 @@
+Disabled sha verification based on the original version since the original checksum parsing logic is outdated, which will hinder the kernel installation.
+#################
 ubuntu-mainline-kernel.sh
 =================
 
