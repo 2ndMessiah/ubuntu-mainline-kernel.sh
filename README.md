@@ -1,5 +1,5 @@
 Disabled sha verification based on the original version since the original checksum parsing logic is outdated, which will hinder the kernel installation.
-
+This forks has been proved to be working under 20.04 v5.18.19.
 
 %%%%%%%%%%%%%%%%%
 
