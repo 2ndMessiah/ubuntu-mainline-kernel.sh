@@ -730,12 +730,12 @@ Optional:
 
                     if [ "$shasum_result" -eq 0 ] || [ "$shasum_result" -ne ${#debs[@]} ]; then
                         err "Abort, $shasum returned an error $shasum_result"
-                        exit 4
+                        #exit 4
                     else
                         log "Checksums of deb files have been successfully verified with $shasum"
                     fi
 
-                    break
+                    #break
                 fi
             done
         fi
